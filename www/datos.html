@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mis datos</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cerulean/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <h1 style="text-align:center; font-size:50px">Mis datos</h1>
+    
+            <table style="width: 100%">
+    
+                <th>
+                    <div class="vertical-menu">
+                        <a href="board.html" class="active">Home</a>
+                        <a href="pedidos.html">Mis pedidos</a>
+    
+                        <a href="">Mis favoritos</a>
+    
+                        <a href="datos.html">Mis datos</a>
+    
+                        <a href="index.html">Salir</a>
+                    </div>
+                </th>
+    
+                <th>
+    
+                    <form action="datos.html" method="get" id="form1" name="form1" >
+    
+                        <FONT FACE="Arial Rounded MT Bold" SIZE=4px>
+                            Nombre: <br>
+                            <input type="text" id="name" name="firstname" placeholder="Nombre completo" size="70">
+                            <br><br> Email:
+                            <br>
+                            <input type="text" name="lastname" placeholder="ejemplo@hotmail.com" size="70">
+                            <br><br>
+                            <table>
+                                <th>
+                                    Password:<br>
+                                    <input type="password" name="password" size="30"> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;
+    
+                                </th>
+                                <th>
+                                    Confirmar password: <br>
+                                    <input type="password" name="password" size="30">
+                                </th>
+                            </table>
+                            <br>
+                            <table>
+                                <th>
+                                    Dirección: <br>
+                                    <input type="text" name="direccion" size="45"> &nbsp;&nbsp;&nbsp;&nbsp;
+                                </th>
+                                <th>
+                                    CP: <br>
+                                    <input type="number" name="codigop">
+    
+    
+                                </th>
+                            </table>
+                            <table>
+                                <th>
+                                    <br> País: <br>
+                                    <select name="paislist" style=" width:300px">
+                                <option value=""></option>
+                                <option value="chile">Chile</option>
+                                <option value="eu">Estados Unidos</option>
+                                <option value="espana">España</option>
+                                <option value="mexico">México</option>
+                              </select> &nbsp;&nbsp;&nbsp;&nbsp;
+                                </th>
+                                <th>
+                                    <br> Ciudad: <br>
+                                    <select name="cdlist" style=" width:300px">
+                                <option value=""></option>
+                                <option value="chihuahua">Chihuahua</option>
+                                <option value="Durango">Durango</option>
+                                <option value="Guadalajara">Guadalajara</option>
+                                <option value="Monterrey">Monterrey</option>
+                              </select>
+                                </th>
+    
+                            </table>
+                            <br><br>
+                            <button type="submit" class="btn">Guardar</button>
+                        </FONT>
+        </div>
+        </th>
+        </table>
+    
+        </form>
+    
+    
+            
+
+
+</body>
+</html>

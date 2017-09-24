@@ -1,0 +1,30 @@
+[
+    {
+        "id": 4,
+        "fecha": "18/10/2014",
+        "resumen": "Anna Kannerina (5) / Frankestein (5)",
+        "estado": "Pagado",
+        "total": "195"
+    },
+    {
+        "id": 3,
+        "fecha": "18/10/2014",
+        "resumen": "juego de tronos (1)",
+        "estado": "No pagado",
+        "total": "140"
+    },
+    {
+        "id": 2,
+        "fecha": "18/10/2014",
+        "resumen": "Los juegos del hambre (1)",
+        "estado": " pagado",
+        "total": "140"
+    },
+    {
+        "id": 1,
+        "fecha": "18/10/2017",
+        "resumen": "DIario de anna frank(1)",
+        "estado": "No pagado",
+        "total": "140"
+    }
+]
